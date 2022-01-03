@@ -1,12 +1,15 @@
 Animal
 --------
-+ type: string
-+ weight: float
-+ color: string
+- type: string
+- weight: float
+- color: string
 --------
-+ run()
-+ eat()
-+ sleep()
++ getType(): string
++ getWeight(): float
++ getColor(): string
++ setType()
++ setWeight()
++ setColor()
 
 
 Book
