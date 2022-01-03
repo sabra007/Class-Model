@@ -14,11 +14,11 @@ Animal
 
 Book
 --------
-+ Title: string
-+ Author: string
-+ Publisher: string
-+ Year: int
-+ Price: float
+- Title: string
+- Author: string
+- Publisher: string
+- Year: int
+- Price: float
 --------
 + getTitle()
 + getAuthor()
