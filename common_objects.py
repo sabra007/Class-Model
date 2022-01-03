@@ -83,3 +83,55 @@ class Book:
        self.__price = new_price
 
 
+
+class Vehicle:
+    """Vehicle class"""
+    def __init__(self):
+        self.__make = 'make'
+        self.__model = 'model'
+        self.__trim = "trim"
+        self.__year = 2022
+        self.__color = 'color'
+
+    @property
+    def make(self):
+        return self.__make
+
+    @property
+    def model(self):
+        return self.__model
+
+    @property
+    def trim(self):
+        return self.__trim
+
+    @property
+    def year(self):
+        return self.__year
+
+    @property
+    def color(self):
+        return self.__color
+
+
+    @make.setter
+    def make(self, new_make):
+       self.__make = new_make
+    
+    @model.setter
+    def model(self, new_model):
+       self.__model = new_model
+    
+    @trim.setter
+    def trim(self, new_trim):
+       self.__trim = new_trim
+
+    @year.setter
+    def year(self, new_year):
+       self.__year = new_year
+
+    @color.setter
+    def color(self, new_color):
+       self.__color = new_color
+
+
