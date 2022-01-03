@@ -1,0 +1,50 @@
+Animal
+--------
++ type: string
++ weight: float
++ color: string
+--------
++ run()
++ eat()
++ sleep()
+
+
+Book
+--------
++ Title: string
++ Author: string
++ Publisher: string
++ Year: int
++ Price: float
+--------
++ getTitle()
++ getAuthor()
++ getPublisher()
++ getYear()
++ getPrice()
++ setTitle(title)
++ setAuthor(author)
++ setPublisher(publisher)
++ setYear(year)
++ setPrice(cost)
+
+
+Vehicle
+--------
++ Make: string
++ Model: string
++ Trim: string
++ Year: int
++ Color: string
+--------
++ getMake()
++ getModel()
++ getTrim()
++ getYear()
++ getColor()
++ setMake(make)
++ setModel(model)
++ setTrim(trim)
++ setYear(year)
++ setColor(color)
+
